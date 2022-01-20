@@ -1,0 +1,10 @@
+AlertDialog.Builder(this
+  .setTitle("Sandwich Dialog")
+  .setMessage("Please use the spicy mustard.")
+  .setNegativeButton("No thanks") { dialogInterface, i ->
+    // "No thanks" action
+  }
+  .setPositiveButton("OK") { dialogInterface, i ->
+    // "OK" action
+  }
+  .show()
